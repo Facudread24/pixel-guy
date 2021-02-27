@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="EscenaJuego.cpp">
+      <Filter>Escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaMenuInicial.cpp">
+      <Filter>Escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaPuntuaciones.cpp">
+      <Filter>Escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="Caminadores.cpp">
+      <Filter>Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemigo.cpp">
+      <Filter>Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaBase.cpp">
+      <Filter>Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay.cpp">
+      <Filter>Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Personaje</Filter>
+    </ClCompile>
+    <ClCompile Include="Personaje.cpp">
+      <Filter>Personaje</Filter>
+    </ClCompile>
+    <ClCompile Include="Voladores.cpp">
+      <Filter>Enemigos</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Personaje\Balas</Filter>
+    </ClCompile>
+    <ClCompile Include="MunicionPersonaje.cpp">
+      <Filter>Personaje\Balas</Filter>
+    </ClCompile>
+    <ClCompile Include="TextoIngreso.cpp" />
+    <ClCompile Include="Arma.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="EscenaFinalBueno.cpp">
+      <Filter>Escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="EscenaFinalMalo.cpp">
+      <Filter>Escenas</Filter>
+    </ClCompile>
+    <ClCompile Include="disparos.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="EscenaPuntuaciones.h">
+      <Filter>Escenas\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaMenuInicial.h">
+      <Filter>Escenas\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaJuego.h">
+      <Filter>Escenas\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="Caminadores.h">
+      <Filter>Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemigo.h">
+      <Filter>Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaBase.h">
+      <Filter>Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay.h">
+      <Filter>Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="entidad.h">
+      <Filter>Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Personaje</Filter>
+    </ClInclude>
+    <ClInclude Include="Personaje.h">
+      <Filter>Personaje</Filter>
+    </ClInclude>
+    <ClInclude Include="Voladores.h">
+      <Filter>Enemigos</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Personaje\Balas</Filter>
+    </ClInclude>
+    <ClInclude Include="MunicionPersonaje.h">
+      <Filter>Personaje\Balas</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaGameOver.h">
+      <Filter>Escenas\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Tipos_Fondo.h">
+      <Filter>Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="Arma.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="TextoIngreso.h" />
+    <ClInclude Include="EscenaFinalMalo.h">
+      <Filter>Escenas\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="EscenaFinalBueno.h">
+      <Filter>Escenas\.h</Filter>
+    </ClInclude>
+    <ClInclude Include="disparos.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Escenas">
+      <UniqueIdentifier>{e9a3fc58-7445-4d57-99a5-350a5f13e15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Escenas\.h">
+      <UniqueIdentifier>{0a70cc10-bb4f-4578-b777-cf08d8d8ea74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bases">
+      <UniqueIdentifier>{0da42463-d4bc-4e3a-9d64-37bb05741fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Personaje">
+      <UniqueIdentifier>{9cadf948-548c-4975-8979-9e4b7af70fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Personaje\Balas">
+      <UniqueIdentifier>{1e0c15e2-3aed-4cb7-a6ad-290997264de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemigos">
+      <UniqueIdentifier>{e66cfc75-343e-4414-8d1c-625e82efeb85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
